@@ -1,2 +1,3 @@
-# smart-irrigation-advisor
-A stacked ensemble machine learning model to predict optimal crops based on soil and weather conditions.
+# 🌱 Smart Irrigation Advisor
+
+Smart Irrigation Advisor is a machine learning project that recommends the most suitable crop to grow based on environmental and soil data such as nitrogen, phosphorus, potassium, temperature, humidity, pH, and rainfall...
