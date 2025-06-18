@@ -1,6 +1,12 @@
+import sklearn
 import streamlit as st
 import numpy as np
 import joblib
+
+
+st.sidebar.markdown(f"**scikit-learn**: {sklearn.__version__}")
+st.sidebar.markdown(f"**joblib**: {joblib.__version__}")
+st.sidebar.markdown(f"**numpy**: {np.__version__}")
 
 # Load model and encoder
 model = joblib.load("models/smart_crop_recommender.pkl")
