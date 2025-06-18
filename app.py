@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load model and encoder
-model = joblib.load("models/smart_crop_model.pkl")
+model = joblib.load("models/smart_crop_recommender.pkl")
 encoder = joblib.load("models/label_encoder.pkl")
 
 st.title("🌾 Smart Crop Recommender")
