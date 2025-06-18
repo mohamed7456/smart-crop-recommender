@@ -64,5 +64,9 @@ See `notebook/smart-crop-recommender.ipynb` for EDA, model development, and visu
 
 ![Confusion Matrix](visuals/confusion_matrix.png)
 
+## ⚠️ Limitations
+- The model is trained on a dataset of approximately 2,000 rows. As a result, its accuracy and generalizability may be limited, especially for regions or conditions not well represented in the data.
+- For production or real-world deployment, consider retraining with a larger and more diverse dataset.
+
 ## 📄 License
 This project is licensed under the MIT License.
