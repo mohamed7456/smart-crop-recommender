@@ -33,5 +33,5 @@ if st.button("Predict Crop"):
 
 # Footer
 st.markdown("---")
-st.markdown("Developed by [Mohamed Hassan]()")
+st.markdown("Developed by [Mohamed Hassan]((https://www.linkedin.com/in/your-profile))")
 st.markdown("Source code available on [GitHub](https://github.com/mohamed7456/smart-crop-recommender)")
